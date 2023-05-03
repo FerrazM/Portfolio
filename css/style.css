@@ -177,6 +177,54 @@ body {
     padding-left: 50px;
 }
 
+.certificacoes {
+    display: flex;
+    align-items: center;
+    border-top: 3px solid #FFFFFF;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.certificacoes-escrito{
+    font-size: 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color: dimgrey;
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+.certificacoes-titulo {
+    padding-top: 50px;
+    font-size: 40px;
+    color: #00AD6F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certificacoes-subtitulo{
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    color: #00AD6F;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certificacoes-paragrafo{
+    font-size: 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color: dimgrey;
+    display: flex;
+    box-sizing: border-box;
+}
 
 .rodape {
     justify-content: space-around;
@@ -185,6 +233,7 @@ body {
 }
 
 .rodape-texto {
+    padding-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
