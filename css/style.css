@@ -6,6 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Saira Condensed', sans-serif;
+    color: #FFFFFF;
     scroll-behavior: smooth;
     transition: 0.3s ease;
     scroll-padding-top: 2rem;
@@ -13,7 +14,7 @@
 
 body {
     font-size: 100%;
-    background: #0F0F0F;
+    background: transparent;
 }
 
 .cabecalho {
