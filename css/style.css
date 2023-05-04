@@ -59,7 +59,9 @@ body {
 .conteudo-principal {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    height: 100%;
+    background-color: #0F0F0F
 }
 
 .conteudo-principal-escrito {
@@ -67,8 +69,6 @@ body {
     flex-direction: column;
     align-items: center;
     color: #FFFFFF;
-
-
 }
 
 .conteudo-principal-escrito-titulo {
@@ -83,7 +83,17 @@ body {
     font-family: 'Saira Condensed', sans-serif;
     font-weight: 200;
     font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    white-space: nowrap;
+    border-right: 2px solid #00AD6F;
     color: #00AD6F;
+    display: block;
+    overflow: hidden;
+    position: relative;
+    animation: blinkCursor 1s steps(40) infinite normal both, typing 3s steps(40) 1s normal;
 }
 
 .conteudo-principal-imagem {
@@ -138,7 +148,8 @@ body {
     border-radius: 50%;
     border: 0.5px solid #00AD6F ;
     box-shadow: 1px 1px 1px 1px #00AD6F;
-    animation: animacao-sutil 2s infinite ease-in-out;
+    opacity: 0;
+    animation: aparecer 10s ease-in-out 0.5s forwards;
 }
 
 .conteudo-secundario-imagem:hover {
@@ -257,17 +268,28 @@ body {
     font-size: 20px;
 }
 
-@keyframes animacao-sutil {
-    0% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-10px);
-    }
-
+@keyframes aparecer {
     100% {
-        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+@keyframes blinkCursor{
+    from{
+        border-right-color: #00AD6F;
+    }
+
+    to{
+        border-right-color: transparent;
+    }
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 7.5em;
     }
 }
 
@@ -314,8 +336,20 @@ body {
     }
 
     .conteudo-principal-escrito-subtitulo {
-        font-size: 16px;
+        font-family: 'Saira Condensed', sans-serif;
+        font-weight: 200;
+        font-size: 24px;
         text-align: center;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        white-space: nowrap;
+        border-right: 2px solid #00AD6F;
+        color: #00AD6F;
+        display: block;
+        overflow: hidden;
+        position: relative;
+        animation: blinkCursor 1s steps(40) infinite normal both, typing 3s steps(40) 1s normal;
     }
 
     .conteudo-principal-imagem {
@@ -358,7 +392,8 @@ body {
         border-radius: 50%;
         border: 0.5px solid #00AD6F ;
         box-shadow: 1px 1px 1px 1px #00AD6F;
-        animation: animacao-sutil 2s infinite ease-in-out;
+        opacity: 0;
+        animation: aparecer 10s ease-in-out 0.5s forwards;
     }
 
     .conteudo-secundario-imagem:hover {
@@ -437,16 +472,27 @@ body {
 
 }
 
-@keyframes animacao-sutil {
-    0% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-10px);
-    }
-
+@keyframes aparecer {
     100% {
-        transform: translateY(0);
+        opacity: 1;
+      }
     }
-}
+
+    @keyframes blinkCursor{
+        from{
+            border-right-color: #00AD6F;
+        }
+    
+        to{
+            border-right-color: transparent;
+        }
+    }
+    
+    @keyframes typing{
+        from{
+            width: 0;
+        }
+        to{
+            width: 7.5em;
+        }
+    }
