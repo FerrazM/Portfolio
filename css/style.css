@@ -136,14 +136,14 @@ body {
     height: 400px;
     justify-content: space-around;
     border-radius: 50%;
-    border: 2px solid #00AD6F ;
-    box-shadow: 3px 3px 4px 3px #00AD6F;
+    border: 0.5px solid #00AD6F ;
+    box-shadow: 1px 1px 1px 1px #00AD6F;
     animation: animacao-sutil 2s infinite ease-in-out;
 }
 
 .conteudo-secundario-imagem:hover {
     border: none;
-    box-shadow: 3px 3px 4px 3px #00AD6F;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px #00AD6F;
 }
 
 .habilidades-escrito {
@@ -357,13 +357,13 @@ body {
         padding-left: 0px;
         border-radius: 50%;
         border: 0.5px solid #00AD6F ;
-        box-shadow: 1px 2px 2px 1px #00AD6F;
+        box-shadow: 1px 1px 1px 1px #00AD6F;
         animation: animacao-sutil 2s infinite ease-in-out;
     }
 
     .conteudo-secundario-imagem:hover {
         border: none;
-        box-shadow: 2px 3px 3px 2px #00AD6F;
+        box-shadow: 1.5px 1.5px 1.5px 1.5px #00AD6F;
     }
 
     .habilidades {
