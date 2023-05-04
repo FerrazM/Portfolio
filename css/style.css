@@ -111,6 +111,7 @@ body {
 
 .conteudo-secundario-escrito {
     padding-top: 48px;
+    color: white;
 }
 
 .conteudo-secundario-titulo {
@@ -124,7 +125,7 @@ body {
     font-size: 20px;
     justify-content: space-around;
     padding-left: 50px;
-
+    color: white;
 }
 
 .conteudo-secundario-imagem {
@@ -133,6 +134,10 @@ body {
     height: 320px;
     justify-content: space-around;
     padding-left: 50px;
+}
+
+.habilidades-escrito {
+    color: white;
 }
 
 .habilidades {
@@ -167,6 +172,7 @@ body {
     font-size: 20px;
     justify-content: space-around;
     padding-left: 50px;
+    color: white;
 }
 
 .habilidades-imagem {
@@ -251,131 +257,139 @@ body {
         scroll-behavior: smooth;
         transition: 0.3s ease;
         scroll-padding-top: 2rem;
-        color: white;
     }
 
     .cabecalho-menu {
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center;
-      gap: 5px;
-    }
-  
-    .cabecalho-menu-item {
-      font-size: 12px;
-    }
-  
-    .conteudo-principal {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin-top: 10px;
-    }
-  
-    .conteudo-principal-escrito-titulo {
-      font-size: 36px;
-      text-align: center;
-    }
-  
-    .conteudo-principal-escrito-subtitulo {
-      font-size: 16px;
-      text-align: center;
-    }
-  
-    .conteudo-principal-imagem {
-      width: 40px;
-      height: 40px;
-    }
-  
-    .conteudo-secundario {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-top: 80px;
-      color: white;
-    }
-  
-    .conteudo-secundario-titulo {
-      font-size: 32px;
-      text-align: center;
-      padding-left: 0px;
-    }
-  
-    .conteudo-secundario-paragrafo {
-      font-size: 16px;
-      text-align: center;
-      padding-left: 0px;
-    }
-  
-    .conteudo-secundario-imagem {
-      margin-top: 40px;
-      width: 200px;
-      height: 180px;
-      padding-left: 0px;
-    }
-  
-    .habilidades {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-top: 80px;
-    }
-  
-    .habilidades-titulo {
-      font-size: 32px;
-      text-align: center;
-      padding-top: 30px;
-    }
-  
-    .habilidades-subtitulo {
-      font-size: 16px;
-      text-align: center;
-      padding-left: 0px;
-      padding-top: 20px;
-    }
-  
-    .habilidades-paragrafo {
-      font-size: 16px;
-      text-align: center;
-      padding-left: 0px;
-      color: white;
-    }
-  
-    .habilidades-imagem {
-      margin-top: 40px;
-      width: 300px;
-      height: 220px;
-      padding-left: 0px;
-    }
-  
-    .certificacoes {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-top: 80px;
-    }
-  
-    .certificacoes-titulo {
-      font-size: 32px;
-      text-align: center;
-      padding-top: 30px;
-    }
-  
-    .certificacoes-subtitulo {
-      font-size: 16px;
-      text-align: center;
-      padding-left: 0px;
-      padding-top: 20px;
-    }
-  
-    .certificacoes-escrito {
-      font-size: 16px;
-      text-align: center;
-      padding-left: 0px;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        gap: 5px;
     }
 
-    .rodape-texto{
+    .cabecalho-menu-item {
+        font-size: 12px;
+    }
+
+    .conteudo-principal {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .conteudo-principal-escrito-titulo {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .conteudo-principal-escrito-subtitulo {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .conteudo-principal-imagem {
+        width: 40px;
+        height: 40px;
+    }
+
+    .conteudo-secundario {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        color: white;
+    }
+
+    .conteudo-secundario-escrito {
+        color: white;
+    }
+
+    .conteudo-secundario-titulo {
+        font-size: 32px;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .conteudo-secundario-paragrafo {
+        font-size: 16px;
+        text-align: center;
+        padding-left: 0px;
+        color: white;
+    }
+
+    .conteudo-secundario-imagem {
+        margin-top: 40px;
+        width: 200px;
+        height: 180px;
+        padding-left: 0px;
+    }
+
+    .habilidades {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+
+    .habilidades-escrito {
+        color: white;
+    }
+
+    .habilidades-titulo {
+        font-size: 32px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .habilidades-subtitulo {
+        font-size: 16px;
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .habilidades-paragrafo {
+        font-size: 16px;
+        text-align: center;
+        padding-left: 0px;
+        color: white;
+    }
+
+    .habilidades-imagem {
+        margin-top: 40px;
+        width: 300px;
+        height: 220px;
+        padding-left: 0px;
+    }
+
+    .certificacoes {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+    }
+
+    .certificacoes-titulo {
+        font-size: 32px;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .certificacoes-subtitulo {
+        font-size: 16px;
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+
+    .certificacoes-escrito {
+        font-size: 16px;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .rodape-texto {
         font-size: 15px;
     }
-  
-  }
+
+}
