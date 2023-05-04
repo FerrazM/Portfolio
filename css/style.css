@@ -349,6 +349,7 @@ body {
         height: 100px;
         padding-left: 0px;
         border-radius: 50%;
+        animation: animacao-sutil 2s infinite ease-in-out;
     }
 
     .conteudo-secundario-imagem:hover {
@@ -424,4 +425,18 @@ body {
         font-size: 15px;
     }
 
+}
+
+@keyframes animacao-sutil {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
 }
