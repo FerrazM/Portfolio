@@ -42,12 +42,12 @@ body {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 25px;
-    border-radius: 45%;
+    border-radius: 100%;
 }
 
 .cabecalho-menu-item:hover {
     border: none;
-    box-shadow: 4px 5px 5px 4px #00AD6F;
+    box-shadow: 1px 2px 2px 1px #00AD6F;
 }
 
 .conteudo {
@@ -87,9 +87,9 @@ body {
 }
 
 .conteudo-principal-imagem {
-    width: 50px;
-    height: 50px;
-    border-radius: 47%;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
 }
 
 .conteudo-principal-imagem:hover {
@@ -136,6 +136,8 @@ body {
     height: 400px;
     justify-content: space-around;
     border-radius: 50%;
+    border: 2px solid #00AD6F ;
+    box-shadow: 3px 3px 4px 3px #00AD6F;
     animation: animacao-sutil 2s infinite ease-in-out;
 }
 
@@ -294,6 +296,11 @@ body {
         border-radius: 50%;
     }
 
+    .cabecalho-menu-item:hover {
+        border: none;
+        box-shadow: 1px 2px 2px 1px #00AD6F;
+    }
+
     .conteudo-principal {
         flex-direction: column;
         align-items: center;
@@ -349,12 +356,14 @@ body {
         height: 100px;
         padding-left: 0px;
         border-radius: 50%;
+        border: 0.5px solid #00AD6F ;
+        box-shadow: 1px 2px 2px 1px #00AD6F;
         animation: animacao-sutil 2s infinite ease-in-out;
     }
 
     .conteudo-secundario-imagem:hover {
         border: none;
-        box-shadow: 1px 3px 4px 2px #00AD6F;
+        box-shadow: 2px 3px 3px 2px #00AD6F;
     }
 
     .habilidades {
