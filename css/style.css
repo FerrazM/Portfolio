@@ -89,7 +89,7 @@ body {
 .conteudo-principal-imagem {
     width: 50px;
     height: 50px;
-    border-radius:47%;
+    border-radius: 47%;
 }
 
 .conteudo-principal-imagem:hover {
@@ -136,6 +136,7 @@ body {
     height: 400px;
     justify-content: space-around;
     border-radius: 50%;
+    animation: animacao-sutil 2s infinite ease-in-out;
 }
 
 .conteudo-secundario-imagem:hover {
@@ -254,6 +255,20 @@ body {
     font-size: 20px;
 }
 
+@keyframes animacao-sutil {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
 @media only screen and (max-width: 600px) {
 
     * {
@@ -271,7 +286,7 @@ body {
         justify-content: space-around;
         align-items: center;
         gap: 5px;
-        
+
     }
 
     .cabecalho-menu-item {
