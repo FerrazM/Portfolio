@@ -349,7 +349,7 @@ body {
         display: block;
         overflow: hidden;
         position: relative;
-        animation: blinkCursor 1s steps(40) infinite normal both, typing 3s steps(40) 1s normal;
+        animation: blinkCursor 1s steps(40) infinite normal both, typing 3s steps(40) 1s normal forwards;
     }
 
     .conteudo-principal-imagem {
