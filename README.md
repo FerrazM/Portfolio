@@ -10,4 +10,4 @@ Portfólio criado com o objetivo de me apresentar para visitantes que estejam in
 
 
 
-👀 Para visualizar o Porjeto no ar [clique aqui](https://portfolio-matheusferraz.up.railway.app/)
+👀 Para visualizar o Projeto no ar [clique aqui](https://portfolio-matheusferraz.up.railway.app/)
