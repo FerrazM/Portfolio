@@ -42,12 +42,25 @@ body {
     color: #FFFFFF;
     font-weight: 400;
     font-size: 25px;
-    border-radius: 100%;
+    position: relative;
 }
 
-.cabecalho-menu-item:hover {
-    border: none;
-    box-shadow: 1px 2px 2px 1px #00AD6F;
+.cabecalho-menu-item::after{
+    content: "";
+    width: 0%;
+    height: 1px;
+    background-color: #00AD6F;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.8s ease-in-out;
+    border-radius: 50%;  
+    
+}
+
+.cabecalho-menu-item:hover::after {
+    width: 100%;
+    border-radius: 100%;     
 }
 
 .conteudo {
@@ -99,12 +112,12 @@ body {
 .conteudo-principal-imagem {
     width: 45px;
     height: 45px;
-    border-radius: 100%;
+    border-radius: 10%;
 }
 
 .conteudo-principal-imagem:hover {
     border: none;
-    box-shadow: 1px 3px 4px 2px #00AD6F;
+    box-shadow: 1px 2px 2px 1px #00AD6F;
 }
 
 .conteudo-principal-paragrafo {
@@ -315,12 +328,26 @@ body {
 
     .cabecalho-menu-item {
         font-size: 12px;
-        border-radius: 50%;
+        border-radius: 100%;
+        position: relative;
     }
 
-    .cabecalho-menu-item:hover {
-        border: none;
-        box-shadow: 1px 2px 2px 1px #00AD6F;
+    .cabecalho-menu-item::after{
+        content: "";
+        width: 0%;
+        height: 1px;
+        background-color: #00AD6F;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transition: 0.8s ease-in-out;
+        border-radius: 50%;  
+        
+    }
+
+    .cabecalho-menu-item:hover::after {
+        width: 100%;
+        border-radius: 100%;     
     }
 
     .conteudo-principal {
@@ -328,6 +355,11 @@ body {
         align-items: center;
         justify-content: center;
         margin-top: 10px;
+    }
+
+    .conteudo-principal-imagem:hover {
+        border: none;
+        box-shadow: 1px 2px 2px 1px #00AD6F;
     }
 
     .conteudo-principal-escrito-titulo {
@@ -355,7 +387,7 @@ body {
     .conteudo-principal-imagem {
         width: 40px;
         height: 40px;
-        border-radius: 50%;
+        border-radius: 10%;
     }
 
     .conteudo-secundario {
