@@ -106,13 +106,15 @@ body {
     display: block;
     overflow: hidden;
     position: relative;
-    animation: blinkCursor 1s steps(40) infinite normal both, typing 3s steps(40) 1s normal;
+    opacity: 0;
+    animation: aparecer 1s step-end forwards, blinkCursor 1s steps(40) infinite normal both, typing 3s steps(40) 1s normal;
 }
 
 .conteudo-principal-imagem {
     width: 45px;
     height: 45px;
     border-radius: 10%;
+    align-items: center;
 }
 
 .conteudo-principal-imagem:hover {
@@ -159,15 +161,8 @@ body {
     height: 400px;
     justify-content: space-around;
     border-radius: 50%;
-    border: 0.5px solid #00AD6F ;
-    box-shadow: 1px 1px 1px 1px #00AD6F;
     opacity: 0;
     animation: aparecer 10s ease-in-out 0.5s forwards;
-}
-
-.conteudo-secundario-imagem:hover {
-    border: none;
-    box-shadow: 1.5px 1.5px 1.5px 1.5px #00AD6F;
 }
 
 .habilidades-escrito {
@@ -309,6 +304,7 @@ body {
 @media only screen and (max-width: 600px) {
 
     * {
+        -webkit-tap-highlight-color: transparent;
         margin: 0;
         padding: 5px;
         box-sizing: border-box;
@@ -381,7 +377,8 @@ body {
         display: block;
         overflow: hidden;
         position: relative;
-        animation: blinkCursor 1s steps(40) infinite normal both, typing 3s steps(40) 1s normal forwards;
+        opacity: 0;
+        animation:aparecer 1s step-end forwards, blinkCursor 1s steps(40) infinite normal both, typing 3s steps(40) 1s normal forwards;
     }
 
     .conteudo-principal-imagem {
@@ -417,21 +414,16 @@ body {
     }
 
     .conteudo-secundario-imagem {
-        margin-top: 40px;
-        width: 100px;
-        height: 100px;
+        margin-top: 20px;
+        margin-bottom: -60px;
+        width: 120px;
+        height: 130px;
         padding-left: 0px;
         border-radius: 50%;
-        border: 0.5px solid #00AD6F ;
-        box-shadow: 1px 1px 1px 1px #00AD6F;
         opacity: 0;
         animation: aparecer 10s ease-in-out 0.5s forwards;
     }
 
-    .conteudo-secundario-imagem:hover {
-        border: none;
-        box-shadow: 1.5px 1.5px 1.5px 1.5px #00AD6F;
-    }
 
     .habilidades {
         flex-direction: column;
