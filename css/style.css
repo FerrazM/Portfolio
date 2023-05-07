@@ -275,16 +275,18 @@ body {
 }
 
 .certificacoes {
+    align-items: center;
     border-top: 3px solid #FFFFFF;
+    margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
 }
+
 
 .certificacoes-titulo {
     margin-left: auto;
     margin-right: auto;
-    padding-top: 20px;
+    padding-top: 50px;
     font-size: 40px;
     color: #00AD6F;
     display: flex;
@@ -293,33 +295,17 @@ body {
 }
 
 .certificacoes-subtitulo {
-    font-family: 'Saira Condensed', sans-serif;
-    font-weight: 200;
-    font-size: 24px;
-    color: #00AD6F;
-    padding-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.certificacoes-escrito1 {
-    border: #00AD6F solid 1px;
-    width: 300px;
-    height: 300px;
-    display: inline-block;
-    justify-content: center;
-
+    font-size: 22px;
+    text-align: center;
 }
 
 .certificacoes-escrito {
     border: #00AD6F solid 1px;
     width: 300px;
-    height: 300px;
-    display: inline-block;
-    margin-left: 20px;
-    justify-content: center;
-    box-sizing: border-box;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 
 
