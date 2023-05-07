@@ -10,6 +10,7 @@
     scroll-behavior: smooth;
     transition: 0.3s ease;
     scroll-padding-top: 2rem;
+    justify-content: center;
 }
 
 body {
@@ -45,7 +46,7 @@ body {
     position: relative;
 }
 
-.cabecalho-menu-item::after{
+.cabecalho-menu-item::after {
     content: "";
     width: 0%;
     height: 1px;
@@ -54,13 +55,13 @@ body {
     bottom: 0;
     left: 0;
     transition: 0.8s ease-in-out;
-    border-radius: 50%;  
-    
+    border-radius: 50%;
+
 }
 
 .cabecalho-menu-item:hover::after {
     width: 100%;
-    border-radius: 100%;     
+    border-radius: 100%;
 }
 
 .conteudo {
@@ -212,41 +213,51 @@ body {
     padding-left: 50px;
 }
 
-.container-portfolio{
+.container-portfolio {
     align-items: center;
     border-top: 3px solid #FFFFFF;
-    margin-top: 50px;
-    
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.portfolio-titulo{
+.portfolio-titulo {
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 50px;
     font-size: 40px;
     color: #00AD6F;
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
-.portfolio-wrapper{
-    margin-left: 590px;
+.portfolio-wrapper {
     border: #00AD6F solid 1px;
     width: 300px;
     height: 300px;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.portfolio-subtitulo{
+.portfolio-subtitulo {
     font-size: 22px;
+    text-align: center;
 }
 
-.portfolio-link{
+.portfolio-img {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.portfolio-link {
     color: #00AD6F;
     position: relative;
+    display: flex;
 }
 
-.portfolio-link::after{
+.portfolio-link::after {
     content: "";
     width: 0%;
     height: 1px;
@@ -255,35 +266,46 @@ body {
     bottom: 0;
     left: 0;
     transition: 0.8s ease-in-out;
-    border-radius: 50%;  
-    
+    border-radius: 50%;
 }
 
 .portfolio-link:hover::after {
     width: 100%;
-    border-radius: 100%;     
+    border-radius: 100%;
 }
 
 .certificacoes {
-    display: flex;
-    align-items: center;
     border-top: 3px solid #FFFFFF;
-    margin-top: 50px;
-    justify-content: space-around;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.certificacoes-escrito1 {
+    border: #00AD6F solid 1px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 610px;
+    justify-content: center;
+
 }
 
 .certificacoes-escrito {
-    font-size: 20px;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    color: dimgrey;
-    display: flex;
+    border: #00AD6F solid 1px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20px;
+    justify-content: center;
     box-sizing: border-box;
 }
 
 
 .certificacoes-titulo {
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 50px;
     font-size: 40px;
     color: #00AD6F;
@@ -331,24 +353,25 @@ body {
 @keyframes aparecer {
     100% {
         opacity: 1;
-      }
     }
+}
 
-@keyframes blinkCursor{
-    from{
+@keyframes blinkCursor {
+    from {
         border-right-color: #00AD6F;
     }
 
-    to{
+    to {
         border-right-color: transparent;
     }
 }
 
-@keyframes typing{
-    from{
+@keyframes typing {
+    from {
         width: 0;
     }
-    to{
+
+    to {
         width: 7.5em;
     }
 }
@@ -364,6 +387,7 @@ body {
         scroll-behavior: smooth;
         transition: 0.3s ease;
         scroll-padding-top: 2rem;
+        justify-content: center;
     }
 
     .cabecalho-menu {
@@ -380,7 +404,7 @@ body {
         position: relative;
     }
 
-    .cabecalho-menu-item::after{
+    .cabecalho-menu-item::after {
         content: "";
         width: 0%;
         height: 1px;
@@ -389,13 +413,13 @@ body {
         bottom: 0;
         left: 0;
         transition: 0.8s ease-in-out;
-        border-radius: 50%;  
-        
+        border-radius: 50%;
+
     }
 
     .cabecalho-menu-item:hover::after {
         width: 100%;
-        border-radius: 100%;     
+        border-radius: 100%;
     }
 
     .conteudo-principal {
@@ -430,7 +454,7 @@ body {
         overflow: hidden;
         position: relative;
         opacity: 0;
-        animation:aparecer 1s step-end forwards, blinkCursor 1s steps(40) infinite normal both, typing 3s steps(40) 1s normal forwards;
+        animation: aparecer 1s step-end forwards, blinkCursor 1s steps(40) infinite normal both, typing 3s steps(40) 1s normal forwards;
     }
 
     .conteudo-principal-imagem {
@@ -516,29 +540,46 @@ body {
     }
 
     .certificacoes {
-        flex-direction: column;
+        border-top: 3px solid #FFFFFF;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
         justify-content: center;
-        align-items: center;
-        margin-top: 80px;
     }
 
     .certificacoes-titulo {
-        font-size: 32px;
-        text-align: center;
-        padding-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+        font-size: 22px;
+        color: #00AD6F;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .certificacoes-subtitulo {
-        font-size: 16px;
+        font-size: 22px;
         text-align: center;
-        padding-left: 0px;
-        padding-top: 20px;
+    }
+
+    .certificacoes-escrito1 {
+        border: #00AD6F solid 1px;
+        width: 300px;
+        height: 300px;
+        display:block;
+        margin: 10px;
+        justify-content: center;
     }
 
     .certificacoes-escrito {
-        font-size: 16px;
-        text-align: center;
-        padding-left: 0px;
+        border: #00AD6F solid 1px;
+        width: 300px;
+        height: 300px;
+        display: block;
+        margin: 10px;
+        justify-content: center;
+        box-sizing: border-box;
     }
 
     .rodape-texto {
@@ -546,40 +587,47 @@ body {
         color: white;
     }
 
-    .container-portfolio{
+    .container-portfolio {
         align-items: center;
         border-top: 3px solid #FFFFFF;
         margin-top: 10px;
-        
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
     }
-    
-    .portfolio-titulo{
-        padding-top: 20px;
-        font-size: 30px;
+
+    .portfolio-titulo {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+        margin-bottom: 20px;
+        font-size: 32px;
         color: #00AD6F;
         display: flex;
         flex-direction: column;
         align-items: center;
-        
     }
-    
-    .portfolio-wrapper{
+
+    .portfolio-wrapper {
         border: #00AD6F solid 1px;
-        width: 180px;
-        height: 200px;
-        
+        width: 300px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
-    
-    .portfolio-subtitulo{
-        font-size: 20px;
+
+    .portfolio-subtitulo {
+        font-size: 22px;
+        text-align: center;
     }
-    
-    .portfolio-link{
+
+    .portfolio-link {
         color: #00AD6F;
         position: relative;
     }
-    
-    .portfolio-link::after{
+
+    .portfolio-link::after {
         content: "";
         width: 0%;
         height: 1px;
@@ -588,13 +636,13 @@ body {
         bottom: 0;
         left: 0;
         transition: 0.8s ease-in-out;
-        border-radius: 50%;  
-        
+        border-radius: 50%;
+
     }
-    
+
     .portfolio-link:hover::after {
         width: 100%;
-        border-radius: 100%;     
+        border-radius: 100%;
     }
 
 }
@@ -602,24 +650,25 @@ body {
 @keyframes aparecer {
     100% {
         opacity: 1;
-      }
+    }
+}
+
+@keyframes blinkCursor {
+    from {
+        border-right-color: #00AD6F;
     }
 
-    @keyframes blinkCursor{
-        from{
-            border-right-color: #00AD6F;
-        }
-    
-        to{
-            border-right-color: transparent;
-        }
+    to {
+        border-right-color: transparent;
     }
-    
-    @keyframes typing{
-        from{
-            width: 0;
-        }
-        to{
-            width: 7.5em;
-        }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
     }
+
+    to {
+        width: 7.5em;
+    }
+}
