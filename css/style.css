@@ -607,13 +607,49 @@ body {
         color: white;
     }
 
-    .container-portfolio {
+    .container-portfolio{
         align-items: center;
         border-top: 1px solid #FFFFFF;
-        margin-top: 10px;
         margin-bottom: 40px;
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
+    }
+    
+    
+    
+    .portfolio-titulo {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+        font-size: 40px;
+        color: #00AD6F;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .portfolio {
+        border: #00AD6F solid 1px;
+        width: 300px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        justify-content: center;
+        display: inline-block;
+        margin: 10px;
+    }
+    
+    .portfolio2 {
+        border: #00AD6F solid 1px;
+        width: 300px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        justify-content: center;
+        display: inline-block;
     }
 
     .portfolio-titulo {
