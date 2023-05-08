@@ -213,13 +213,16 @@ body {
     padding-left: 50px;
 }
 
-.container-portfolio {
+.container-portfolio{
     align-items: center;
     border-top: 3px solid #FFFFFF;
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
+
+
 
 .portfolio-titulo {
     margin-left: auto;
@@ -232,13 +235,27 @@ body {
     align-items: center;
 }
 
-.portfolio-wrapper {
+.portfolio {
     border: #00AD6F solid 1px;
     width: 300px;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 16px
+    font-size: 16px;
+    justify-content: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.portfolio2 {
+    border: #00AD6F solid 1px;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    justify-content: center;
+    display: inline-block;
 }
 
 .portfolio-subtitulo {
@@ -284,11 +301,15 @@ body {
 }
 
 .certificacoes {
-    align-items: center;
     border-top: 3px solid #FFFFFF;
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+
+.certificacoes-wrapper{
+    display:inline-block;
 }
 
 
@@ -300,7 +321,7 @@ body {
     color: #00AD6F;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 
 .certificacoes-subtitulo {
@@ -315,9 +336,9 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    display: inline-block;
+    margin: 10px;
 }
-
-
 
 
 .certificacoes-paragrafo {
@@ -326,7 +347,7 @@ body {
     flex-direction: column;
     align-items: center;
     color: dimgrey;
-    display: flex;
+    display: inline-block;
     box-sizing: border-box;
 }
 
