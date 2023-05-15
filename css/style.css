@@ -261,6 +261,7 @@ body {
 .portfolio-subtitulo {
     font-size: 22px;
     text-align: center;
+    color: white;
 }
 
 .portfolio-img{
@@ -327,6 +328,7 @@ body {
 .certificacoes-subtitulo {
     font-size: 22px;
     text-align: center;
+    color:white;
 }
 
 .certificacoes-escrito {
