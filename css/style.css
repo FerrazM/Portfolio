@@ -259,9 +259,8 @@ body {
 }
 
 .portfolio-subtitulo {
-    font-size: 22px white;
+    font-size: 22px #ffffff;
     text-align: center;
-    font: white ;
 }
 
 .portfolio-img{
@@ -326,9 +325,8 @@ body {
 }
 
 .certificacoes-subtitulo {
-    font-size: 22px white;
+    font-size: 22px #ffffff;
     text-align: center;
-    font: white;
 }
 
 .certificacoes-escrito {
